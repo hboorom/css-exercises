@@ -9,10 +9,12 @@ body {
 }
 
 .header {
+  display: flex;
+  align-items: center;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
-  border: solid red 8px;
+  padding: 8px 16px;
 }
 
 .profile-image {
@@ -21,6 +23,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  margin-left: 10px;
 }
 
 .logo {
@@ -28,6 +31,17 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+}
+
+.links {
+  display: flex;
+  padding-left: 12px;
+}
+
+.buttons {
+  display: flex;
+  position: fixed;
+  right: 14px;
 }
 
 button {
@@ -46,4 +60,8 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+li {
+  padding-right: 12px;
 }
