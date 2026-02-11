@@ -4,6 +4,7 @@
 .header, .left-links, .right-links {
   display: flex;
   justify-content: space-between;
+  margin: 0;
 }
 
 .left-links, .right-links {
@@ -59,7 +60,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
-  padding: 8px;
+  padding: 8px 14px;
 }
 
 input {
