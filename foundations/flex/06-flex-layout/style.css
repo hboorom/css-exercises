@@ -6,8 +6,21 @@
   justify-content: space-between;
 }
 
+.left-links, .right-links {
+  gap: 16px;
+  padding: 14px
+}
+
 .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   flex-grow: 1;
+}
+
+.buttons {
+  padding: 12px;
 }
 
 .footer {
@@ -16,6 +29,7 @@
   justify-content: space-between;
   flex-grow: 0;
   flex-shrink: 0;
+  
 }
 
 body {
@@ -45,6 +59,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
 
 input {
