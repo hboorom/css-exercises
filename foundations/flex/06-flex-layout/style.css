@@ -1,8 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 
+.header, .left-links, .right-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  flex-grow: 1;
+}
+
 .footer {
   background: #eee;
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 0;
+  flex-shrink: 0;
 }
 
 body {
@@ -20,6 +33,7 @@ li {
 
 a {
   text-decoration: none;
+  color: darkgray;
 }
 
 img {
